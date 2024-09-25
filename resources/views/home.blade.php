@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1>Films di Boolean</h1>
+                <h1>CATOLOGO FILMS BOOLEAN</h1>
             </div>
         </div>
     </div>
