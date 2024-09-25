@@ -20,6 +20,11 @@ Stilare il layout nei dettagli con Sass
 - Eseguo i punti 1,2,3 della consegna (lo scrivo in questo modo in quanto questi passaggi non sono visibili in questa repo, o almeno non dal source control)-
 - modifico il file .env secondo istruzioni.
 - creo il model Movie eseguendo il comando php artisan make:model Movie.
+- dato che sono ciuccio mi ero dimenticato alcuni passaggi fondamentali, che riporto qui di seguito:
+    - creo il file MovieController.php
+    - creo il file home.blade.php e lo sostiusco al posto welcome.blade.php
+    - creo il file app.blade.php
+    - modifico il file web.php per cambiare la rotta di home.blade.php
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
