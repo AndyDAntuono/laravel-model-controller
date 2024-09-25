@@ -1,14 +1,18 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Guest;
 
-use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use App\Models\Movie;
 
 class PageController extends Controller
 {
-    public function homepage(){
-        $title = 'Homepage';
+    public function index()
+    {
+        // Recupera tutti i film dal database
+        $movies = Movie::all();
 
-        return view('home', compact ('title'));
+        // Passa i film alla view
+        return view('movies.index', ['movies' => $movies]);
     }
 }
